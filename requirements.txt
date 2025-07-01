@@ -1,0 +1,30 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# For Vision Transformers and pre-trained models
+transformers>=4.35.0
+timm>=0.9.2  # PyTorch Image Models (for ViT and hybrid models)
+
+# For image loading, augmentation, and preprocessing
+opencv-python
+scikit-image
+pillow
+numpy
+matplotlib
+
+# For evaluation and metrics
+scikit-learn
+pandas
+
+# For Grad-CAM visualization
+grad-cam>=1.4.6
+
+# Jupyter (optional, for notebooks)
+jupyterlab
+
+# Optional logging/training tools
+tensorboard
+
+einops
